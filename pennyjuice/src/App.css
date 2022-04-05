@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Libre+Baskerville&family=Patua+One&family=Signika&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.orderhero{
+  width:100%;
+  height:50vh;
+  background:url("https://images.pexels.com/photos/1410157/pexels-photo-1410157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ordertext{
+  text-align:center;
+  color:white;
+  font-size:5rem;
+  padding-top: 2em;
+  font-family: 'Libre Baskerville', serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ordercontainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
-
-.App-link {
-  color: #61dafb;
+/* form{
+  margin-left: 20em;
+  width:60%;
+  height:150vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+  margin-left: 1.5em;
+  margin-top: 1em;
+  
+ 
 }
+.formlabel{
+  padding-top: 3em;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-family: 'Signika', sans-serif;
+}
+input{
+  width:20em;
+  height:35px;
+  margin-left: 23.5em;
+  margin-top: 1em;
+} */
