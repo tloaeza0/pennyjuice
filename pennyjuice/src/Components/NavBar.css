@@ -90,7 +90,7 @@ body {
 span {
   margin-left: 16px;
 }
-@media (max-width: 2000px) {
+/* @media (max-width: 2000px) {
   .whole-nav-content{
     display: none;
   }
@@ -98,7 +98,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: #77ddf9;
-    gap: 300px;
+    gap: 400px;
   }
   .par3{
     display: flex;
@@ -112,6 +112,7 @@ span {
     gap: 10px;
   }
   .listedlinks a{
+    padding-top: .5rem;
     text-decoration: none; 
 
   }
@@ -141,5 +142,37 @@ span {
     padding-top: 1.875rem;
     text-decoration: none; 
 
+  }
+} */
+@media (min-width: 803px) {
+  .whole-nav-content{
+    display: none;
+  }
+  .secondnav{
+    display: flex;
+    flex-direction: row;
+    background-color: #77ddf9;
+    gap: 90px;
+  }
+  .par3{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .listedlinks{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+  }
+  .listedlinks a{
+    padding-top: 1.875rem;
+    text-decoration: none; 
+
+  }
+}
+@media (min-width: 360px) and (max-width: 800px){
+  .secondnav{
+    display: none;
   }
 }
