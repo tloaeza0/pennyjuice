@@ -1,5 +1,7 @@
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cupss.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("cupss.jpg");
+    
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,65 +9,87 @@
   padding: 150px 30px;
   text-align: center;
   font-size: 36px;
+
 }
 
 #hero .hero-content {
   position: relative;
+
 }
 
-.topstuff {
-  color: #77DDF9;
+.topstuff{
+  color: #77DDF9; 
 }
 
-.thegrid {
+
+
+.thegrid{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2em;
+  grid-gap:2em;
 }
 
-.piece {
-  background-color: #e4dada;
+.piece{
+ 
+  background-color: rgb(228, 218, 218);
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr ;
+  
 }
 
-.no {
+.no{
   display: flex;
   grid-template-columns: 1fr 1fr;
+  
 }
 
-.pieceof {
-  background-color: #eee6e6;
+.pieceof{
+  background-color: rgb(238, 230, 230);
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.pieceofpi {
-  background-color: #e4dada;
+.pieceofpi{
+  background-color: rgb(228, 218, 218);
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.okay {
+.okay{
   margin: 30px 90px;
   text-align: center;
   font-size: 30px;
-  color: #FFA0A3;
-  border-radius: 5px;
-  box-sizing: border-box;
+ color: #FFA0A3;
+ border-radius: 5px;
+ box-sizing: border-box;
 }
 
-.okays {
+.okays{
   margin: 30px 90px;
   text-align: center;
   font-size: 30px;
-  color: #77DDF9;
-  border-radius: 5px;
-  box-sizing: border-box;
+ color: #77DDF9;
+
+ border-radius: 5px;
+ box-sizing: border-box;
 }
 
-.rain {
-  float: left;
+
+
+.rain{
+    float:left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.kids{
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -75,28 +99,18 @@
   width: 50%;
 }
 
-.kids {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.juice {
+.juice{
   width: 100%;
   max-width: 200px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 50%; 
 }
 
-.order {
-  background-color: #FFA0A3;
+.order{
+  background-color: #FFA0A3; 
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -107,11 +121,11 @@
 
 .pennn {
   text-align: center;
-  color: #7F8FA3;
-  font-size: 20px;
+    color:#7F8FA3;
+    font-size: 20px;  
 }
 
-.pennyofa {
+.pennyofa{
   width: 100%;
   max-width: 300px;
   height: auto;
@@ -121,16 +135,14 @@
   width: 50%;
 }
 
-.learn {
+.learn{
   margin: 30px 90px;
   text-align: center;
-  background-color: #77DDF9;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
+ background-color: #77DDF9; 
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
 }
-
-/*# sourceMappingURL=app.css.map */
