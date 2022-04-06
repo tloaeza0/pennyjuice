@@ -3,8 +3,8 @@ import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import ContactPage from "./pages/ContactPage";
 import OrderPage from './pages/OrderPage'
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 
 function App() {
