@@ -11,14 +11,18 @@ const About = () => {
         </div>
         <div className="heroimgtwo">
       <div className="heroimgtwo-text">
-          <h1>Benifits </h1>
+          <h1>Benefits </h1>
           <p>You don't need to refrigerate the containers before or after opening them and making it one more minor problem to worry about. Penny Juice reduces the cost per ounce in every purchase. Each case contains six half-gallon bottles of different flavors.</p>
+          
        </div>
         </div>
         <div className="heroimgthree">
       <div className="heroimgthree-text">
           <h1>Love </h1>
           <p>Kids love Penny Juice because it is available in various exciting flavors and colors!</p>
+          <p>No contracts,
+            Free delivery nationwide,
+            Minimum order 1 case</p>
        </div>
         </div>
         

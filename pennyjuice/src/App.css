@@ -9,13 +9,14 @@
   color: white;
   font-size: 2rem;
   padding-top: 3.3em;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px 2px black, 0 0 25px black, 0 0 10px black;
 }
 
 .heroimgtwo {
  background: url("../public/img/kk.jpeg");
   height: 80vh;
   width: 100%;
+  background-size: cover;
  
 }
 .heroimgtwo-text {
@@ -23,7 +24,7 @@
     color: white;
     font-size: 2rem;
     padding-top: 3.3em;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black, 0 0 25px black, 0 0 10px black;
   }
 
 .heroimgthree {
@@ -37,7 +38,7 @@
     color: white;
     font-size: 2rem;
     padding-top: 3em;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black, 0 0 25px black, 0 0 10px black;
     
  
   }
