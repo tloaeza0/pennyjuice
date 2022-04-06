@@ -15,12 +15,13 @@ function Navbar() {
   return (
     <>
       <section className="whole-nav-content">
-        <IconContext.Provider value={{ color: "#fff" }}>
+        <IconContext.Provider value={{ color: "black" }}>
           <div className="navbar">
             <Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
             <div className="nav-content">
+            <img src ="./images/orangelogo.png" className="orangelogo"/>
               <p className="par1">IT MAKES CENTS</p>
               <p className="par2">FREE NATIONWIDE SHIPPING</p>
               <button>Call Us Today</button>
@@ -49,17 +50,17 @@ function Navbar() {
       </section>
       <section className="secondnav">
         
-          <img src="./images/largelogo.png" width="500px" height="200px" />
+      <img src ="./images/orangelogo.png" className="orangelogo"/>
           <div className="par3">
             <p>FREE NATIONWIDE SHIPPING 565-786-8978</p>
             <p>LEADER IN CHILDCARE JUICE!</p>
             <nav className="listednav">
               <ul className='listedlinks'>
-                <Link to="/">Home</Link>
-                <Link to="/">About</Link>
-                <Link to="/">Products</Link>
-                <Link to="/">Order</Link>
-                <Link to="/">contact</Link>
+                <Link to="/Home" className="link-color">Home</Link>
+                <Link to="/About" className="link-color">About</Link>
+                <Link to="/Products" className="link-color">Products</Link>
+                <Link to="/Order" className="link-color">Order</Link>
+                <Link to="/contact" className="link-color">contact</Link>
               </ul>
             </nav>
           </div>

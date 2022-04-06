@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .navbar {
-  background-color: #77ddf9;
+  background-color: whitesmoke;
   height: 12.5rem;
   display: flex;
   justify-content: start;
@@ -18,7 +18,7 @@ body {
 
 .nav-content button {
   border-radius: 8px;
-  background-color: #ffa0a3;
+  background-color: #ff914d;
   color: white;
 }
 .par1 {
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-menu {
-  background-color: #77ddf9;
+  background-color: whitesmoke;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-text a:hover {
-  background-color: #1a83ff;
+  background-color: #ff914d;
 }
 
 .nav-menu-items {
@@ -79,9 +79,8 @@ body {
 }
 
 .navbar-toggle {
-  background-color: #77ddf9;
   width: 100%;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -89,6 +88,12 @@ body {
 
 span {
   margin-left: 16px;
+}
+.link-color{
+  color: black;
+}
+.link-color:hover{
+  color: #ff914d;
 }
 /* @media (max-width: 2000px) {
   .whole-nav-content{
@@ -144,20 +149,20 @@ span {
 
   }
 } */
-@media (min-width: 1300px)and (max-width: 4000px) {
+@media (min-width: 1401px)and (max-width: 3000px) {
   .whole-nav-content{
     display: none;
   }
   .secondnav{
     display: flex;
     flex-direction: row;
-    background-color: #77ddf9;
-    gap: 300px;
+    background-color: whitesmoke;
+    gap: 600px;
   }
   .par3{
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
   }
   .listedlinks{
@@ -170,21 +175,24 @@ span {
     text-decoration: none; 
 
   }
+  .orangelogo{
+    height: 300px;
+  }
 }
-@media (min-width: 803px)and (max-width: 1280px) {
+@media (min-width: 1280px)and (max-width: 1400px) {
   .whole-nav-content{
     display: none;
   }
   .secondnav{
     display: flex;
     flex-direction: row;
-    background-color: #77ddf9;
-    gap: 180px;
+    background-color: whitesmoke;
+    gap: 400px;
   }
   .par3{
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 24px;
     font-weight: bold;
   }
   .listedlinks{
@@ -197,9 +205,237 @@ span {
     text-decoration: none; 
 
   }
+  .orangelogo{
+    height: 300px;
+  }
 }
-@media (min-width: 360px) and (max-width: 800px){
+@media (min-width: 1024px)and (max-width: 1279px) {
+  .whole-nav-content{
+    display: none;
+  }
+  .secondnav{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 100px;
+  }
+  .par3{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .listedlinks{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+  }
+  .listedlinks a{
+    padding-top: 1.875rem;
+    text-decoration: none; 
+
+  }
+  .orangelogo{
+    height: 300px;
+  }
+}
+@media (min-width: 961px)and (max-width: 1023px) {
+  .whole-nav-content{
+    display: none;
+  }
+  .secondnav{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 100px;
+  }
+  .par3{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .listedlinks{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+  }
+  .listedlinks a{
+    padding-top: 1.875rem;
+    text-decoration: none; 
+
+  }
+  .orangelogo{
+    height: 300px;
+  }
+}
+@media (min-width: 800px)and (max-width: 960px) {
+  .whole-nav-content{
+    display: none;
+  }
+  .secondnav{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 30px;
+  }
+  .par3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .listedlinks{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+  }
+  .listedlinks a{
+    padding-top: 1.875rem;
+    text-decoration: none; 
+
+  }
+  .orangelogo{
+    height: 300px;
+  }
+}
+@media (min-width: 767px)and (max-width: 768px) {
+  .whole-nav-content{
+    height: 30vh;
+    background-color: whitesmoke;
+  }
   .secondnav{
     display: none;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .par1{
+    font-size: 10px;
+    
+  }
+  .par2{
+    font-size: 10px;
+    padding-left: 20px;
+  }
+  .orangelogo{
+    height: 200px;
+   width: 300px;
+   padding-left: 50px;
+  }
+  
+}
+@media (min-width: 600px)and (max-width: 767px) {
+  .whole-nav-content{
+    display: none;
+  }
+  .secondnav{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 30px;
+  }
+  .par3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .listedlinks{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+  }
+  .listedlinks a{
+    padding-top: 1.875rem;
+    text-decoration: none; 
+
+  }
+  .orangelogo{
+    height: 300px;
+  }
+}
+
+@media (min-width: 431px)and (max-width: 600px) {
+  .whole-nav-content{
+    height: 40vh;
+    background-color: whitesmoke;
+  }
+  .secondnav{
+    display: none;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .par1{
+    font-size: 10px;
+  }
+  .par2{
+    font-size: 10px;
+  }
+  .orangelogo{
+    height: 150px;
+   width: 200px;
+  }
+  
+}
+@media (min-width: 360px) and (max-width: 430px){
+  .whole-nav-content{
+    height: 40vh;
+    background-color: whitesmoke;
+  }
+  .secondnav{
+    display: none;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .par1{
+    font-size: 10px;
+    padding-left: 60px;
+  }
+  .par2{
+    font-size: 10px;
+    padding-left: 40px;
+  }
+  .orangelogo{
+    height: 150px;
+   width: 200px;
+  }
+}
+@media (min-width: 280px) and (max-width: 359px){
+  .whole-nav-content{
+    height: 40vh;
+    background-color: whitesmoke;
+  }
+  .secondnav{
+    display: none;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .par1{
+    font-size: 10px;
+    
+  }
+  .par2{
+    font-size: 10px;
+    padding-left: 20px;
+  }
+  .orangelogo{
+    height: 150px;
+   width: 200px;
   }
 }
