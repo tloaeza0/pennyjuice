@@ -1,8 +1,8 @@
 import React from 'react'
-import ContactForm from './ContactForm'
+import ContactForm from '../components/Contact/ContactForm'
 
 
-const contactPage = () => {
+const ContactPage = () => {
   return (
     <div>
       <ContactForm/>

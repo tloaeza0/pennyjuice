@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap");
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   margin: 0;
   padding: 0;
 }
@@ -92,66 +92,12 @@ body {
 span {
   margin-left: 16px;
 }
-.link-color{
+.link-color {
   color: black;
 }
-.link-color:hover{
+.link-color:hover {
   color: #ff914d;
 }
-/* @media (max-width: 2000px) {
-  .whole-nav-content{
-    display: none;
-  }
-  .secondnav{
-    display: flex;
-    flex-direction: row;
-    background-color: #77ddf9;
-    gap: 400px;
-  }
-  .par3{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .listedlinks{
-    display: flex;
-    justify-content: space-between; 
-    gap: 10px;
-  }
-  .listedlinks a{
-    padding-top: .5rem;
-    text-decoration: none; 
-
-  }
-}
-@media (max-width: 1024px) {
-  .whole-nav-content{
-    display: none;
-  }
-  .secondnav{
-    display: flex;
-    flex-direction: row;
-    background-color: #77ddf9;
-    gap: 90px;
-  }
-  .par3{
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .listedlinks{
-    display: flex;
-    justify-content: space-between; 
-    gap: 10px;
-  }
-  .listedlinks a{
-    padding-top: 1.875rem;
-    text-decoration: none; 
-
-  }
-} */
 @media (min-width: 1401px)and (max-width: 3000px) {
   .whole-nav-content{
     display: none;
@@ -242,39 +188,13 @@ span {
     height: 300px;
   }
 }
-@media (min-width: 961px)and (max-width: 1023px) {
+@media (min-width: 820px) and (max-width: 1023px){
   .whole-nav-content{
     display: none;
   }
-  .secondnav{
-    display: flex;
-    flex-direction: row;
-    background-color: whitesmoke;
-    gap: 100px;
-  }
-  .par3{
-    display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .listedlinks{
-    display: flex;
-    justify-content: space-between; 
-    gap: 10px;
-  }
-  .listedlinks a{
-    padding-top: 1.875rem;
-    text-decoration: none; 
-
-  }
-  .orangelogo{
-    height: 300px;
-  }
-}
-@media (min-width: 800px)and (max-width: 960px) {
-  .whole-nav-content{
-    display: none;
+  .orangelogo {
+    height: 250px;
+    width: 300px;
   }
   .secondnav{
     display: flex;
@@ -302,44 +222,19 @@ span {
     height: 300px;
   }
 }
-@media (min-width: 767px)and (max-width: 768px) {
-  .whole-nav-content{
-    height: 30vh;
-    background-color: whitesmoke;
-  }
-  .secondnav{
-    display: none;
-  }
-  .nav-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 1rem;
-  }
-  .par1{
-    font-size: 10px;
-    
-  }
-  .par2{
-    font-size: 10px;
-    padding-left: 20px;
-  }
-  .orangelogo{
-    height: 200px;
-   width: 300px;
-   padding-left: 50px;
-  }
-  
-}
-@media (min-width: 600px)and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 819px){
   .whole-nav-content{
     display: none;
+  }
+  .orangelogo {
+    height: 250px;
+    width: 300px;
   }
   .secondnav{
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    gap: 30px;
+    gap: 10px;
   }
   .par3{
     display: flex;
@@ -350,7 +245,8 @@ span {
   .listedlinks{
     display: flex;
     justify-content: space-between; 
-    gap: 10px;
+    gap: 5px;
+    padding-right: 20px;
   }
   .listedlinks a{
     padding-top: 1.875rem;
@@ -361,66 +257,140 @@ span {
     height: 300px;
   }
 }
-
-@media (min-width: 431px)and (max-width: 600px) {
-  .whole-nav-content{
-    height: 40vh;
+@media (min-width: 540px) and (max-width: 767px) {
+  .whole-nav-content {
+    height: 55vh;
     background-color: whitesmoke;
   }
-  .secondnav{
+  .secondnav {
     display: none;
   }
   .nav-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 1rem;
+    padding-left: 4rem;
   }
-  .par1{
-    font-size: 10px;
-  }
-  .par2{
-    font-size: 10px;
-  }
-  .orangelogo{
-    height: 150px;
-   width: 200px;
-  }
-  
-}
-@media (min-width: 360px) and (max-width: 430px){
-  .whole-nav-content{
-    height: 40vh;
-    background-color: whitesmoke;
-  }
-  .secondnav{
-    display: none;
-  }
-  .nav-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 1rem;
-  }
-  .par1{
-    font-size: 10px;
-    padding-left: 60px;
-  }
-  .par2{
-    font-size: 10px;
+  .submit-btn {
+    width: 200px;
     padding-left: 40px;
   }
-  .orangelogo{
-    height: 150px;
-   width: 200px;
+  .submit-btn button {
+    width: 250px;
+  }
+  .par1 {
+    font-size: 20px;
+    padding-left: 60px;
+  }
+  .par2 {
+    font-size: 20px;
+    padding-left: px;
+  }
+  .orangelogo {
+    height: 250px;
+    width: 300px;
+    padding-top: 100px;
   }
 }
-@media (min-width: 280px) and (max-width: 359px){
-  .whole-nav-content{
+@media (min-width: 412px) and (max-width: 539px) {
+  .whole-nav-content {
+    height: 50vh;
+    background-color: whitesmoke;
+  }
+  .secondnav {
+    display: none;
+  }
+  .nav-content {
+    padding-left: 1rem;
+  }
+  .submit-btn {
+    width: 200px;
+    padding-left: 40px;
+  }
+  .submit-btn button {
+    width: 250px;
+  }
+  .par1 {
+    font-size: 20px;
+    padding-left: 60px;
+  }
+  .par2 {
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .orangelogo {
+    height: 250px;
+    width: 300px;
+    padding-top: 200px;
+  }
+}
+@media (min-width: 390px) and (max-width: 411px) {
+  .whole-nav-content {
+    height: 55vh;
+    background-color: whitesmoke;
+  }
+  .secondnav {
+    display: none;
+  }
+  .nav-content {
+    padding-left: 0.04rem;
+  }
+  .submit-btn {
+    width: 200px;
+    padding-left: 40px;
+  }
+  .submit-btn button {
+    width: 250px;
+  }
+  .par1 {
+    font-size: 20px;
+    padding-left: 60px;
+  }
+  .par2 {
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .orangelogo {
+    height: 250px;
+    width: 300px;
+    padding-top: 200px;
+  }
+}
+@media (min-width: 360px) and (max-width: 389px) {
+  .whole-nav-content {
+    height: 50vh;
+    background-color: whitesmoke;
+  }
+  .secondnav {
+    display: none;
+  }
+  .nav-content {
+    padding-left: 1rem;
+  }
+  .submit-btn {
+    width: 200px;
+    padding-left: 20px;
+  }
+  .submit-btn button {
+    width: 200px;
+  }
+  .par1 {
+    font-size: 15px;
+    padding-left: 40px;
+  }
+  .par2 {
+    font-size: 15px;
+    padding-left: 1px;
+  }
+  .orangelogo {
+    height: 230px;
+    width: 230px;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 280px) and (max-width: 359px) {
+  .whole-nav-content {
     height: 40vh;
     background-color: whitesmoke;
   }
-  .secondnav{
+  .secondnav {
     display: none;
   }
   .nav-content {
@@ -429,16 +399,15 @@ span {
     flex-direction: column;
     padding-left: 1rem;
   }
-  .par1{
+  .par1 {
     font-size: 10px;
-    
   }
-  .par2{
+  .par2 {
     font-size: 10px;
     padding-left: 20px;
   }
-  .orangelogo{
+  .orangelogo {
     height: 150px;
-   width: 200px;
+    width: 200px;
   }
 }

@@ -24,7 +24,9 @@ function Navbar() {
             <img src ="./images/orangelogo.png" className="orangelogo"/>
               <p className="par1">IT MAKES CENTS</p>
               <p className="par2">FREE NATIONWIDE SHIPPING</p>
+              <div className="submit-btn">
               <button>Call Us Today</button>
+              </div>
             </div>
           </div>
           <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-import logo from './logo.svg';
-import './App.css';
-import ContactForm from './components/Contact/ContactForm';
-
-function App() {
-  return (
-    <div className="App">
-      <ContactForm/>
-=======
 import { Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "./Pages/contactPage";
 import OrderPage from './pages/OrderPage'
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
@@ -31,7 +21,6 @@ function App() {
         </Routes>
       </main>
       <Footer />
->>>>>>> 336a6c2717115ff99ab0c052a95ba44fe8db000f
     </div>
   );
 }
