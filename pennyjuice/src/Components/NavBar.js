@@ -58,11 +58,7 @@ function Navbar() {
             <p>LEADER IN CHILDCARE JUICE!</p>
             <nav className="listednav">
               <ul className='listedlinks'>
-                <Link to="/Home" className="link-color">Home</Link>
-                <Link to="/About" className="link-color">About</Link>
-                <Link to="/Products" className="link-color">Products</Link>
-                <Link to="/Order" className="link-color">Order</Link>
-                <Link to="/contact" className="link-color">contact</Link>
+                <Link to="/Contact" className="link-color">contact</Link>
               </ul>
             </nav>
           </div>

@@ -1,26 +1,21 @@
-import { Route, Routes} from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ProductsPage from "./pages/ProductsPage";
-import ContactPage from "./Pages/contactPage";
-import OrderPage from './pages/OrderPage'
+import { Router, Route, Routes } from "react-router-dom";
+import ContactPage from "./Components/Contact/ContactPage";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
-
 
 function App() {
   return (
     <div>
+    <Router>
       <NavBar />
       <main>
-        <Routes>
-         <Route path='/' />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/products" element={<ProductsPage />} />
+        <Route>
+          <Route path="/" />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/order" element={<OrderPage />} />
-        </Routes>
+        </Route>
       </main>
       <Footer />
+    </Router>
     </div>
   );
 }
