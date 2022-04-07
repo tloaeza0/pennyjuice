@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './pages/Home';
+import Home from './Pages/Home';
 // import { Router, Route } from 'react-router-dom';
 
 import {

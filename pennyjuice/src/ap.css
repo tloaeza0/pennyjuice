@@ -1,11 +1,5 @@
-.myback{
-  background-color: #faf1e6;
-}
-
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("cupss.jpg");
-    
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cupss.jpg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,78 +7,65 @@
   padding: 150px 30px;
   text-align: center;
   font-size: 36px;
-
 }
 
 #hero .hero-content {
   position: relative;
-
 }
 
-.topstuff{
-  color: #ffc074; 
+.topstuff {
+  color: #77DDF9;
 }
 
-
-
-.thegrid{
+.thegrid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap:2em;
+  grid-gap: 2em;
 }
 
-.piece{
-  background-color: #faf1e6;
+.piece {
+  background-color: #e4dada;
   display: grid;
-  grid-template-columns: 1fr ;
-  
+  grid-template-columns: 1fr;
 }
 
-.no{
+.no {
   display: flex;
   grid-template-columns: 1fr 1fr;
-  
 }
 
-.pieceof{
-  background-color: #B6C867;
+.pieceof {
+  background-color: #eee6e6;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.pieceofpi{
-  background-color: #faf1e6;
+.pieceofpi {
+  background-color: #e4dada;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.okay{
+.okay {
   margin: 30px 90px;
   text-align: center;
   font-size: 30px;
- color: #01937C;
- border-radius: 5px;
- box-sizing: border-box;
+  color: #FFA0A3;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-
-
-
-
-.rain{
-    float:center;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.okays {
+  margin: 30px 90px;
+  text-align: center;
+  font-size: 30px;
+  color: #77DDF9;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-
-
-.kids{
+.rain {
+  float: center;
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -94,18 +75,28 @@
   width: 50%;
 }
 
-.juice{
+.kids {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.juice {
   width: 100%;
   max-width: 200px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 50%;
 }
 
-.order{
-  background-color: #B6C867; 
+.order {
+  background-color: #B6C867;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -116,17 +107,11 @@
 
 .pennn {
   text-align: center;
-    color:#b4822c;
-    font-size: 20px;  
+  color: #7F8FA3;
+  font-size: 20px;
 }
 
-.pent{
-  text-align: center;
-    color:#F4EEA9;
-    font-size: 20px;  
-}
-
-.pennyofa{
+.pennyofa {
   width: 100%;
   max-width: 300px;
   height: auto;
@@ -136,14 +121,16 @@
   width: 50%;
 }
 
-.learn{
+.learn {
   margin: 30px 90px;
   text-align: center;
- background-color: #B6C867; 
- color: white;
- padding: 15px 32px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 20px;
+  background-color: #77DDF9;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 }
+
+/*# sourceMappingURL=ap.css.map */

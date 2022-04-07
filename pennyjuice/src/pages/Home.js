@@ -6,7 +6,7 @@ const Home = () => {
 return(
    <>
    
-   
+   <body class = "myback">
 
     <section id="hero">
 		<div class="hero-content">
@@ -21,13 +21,16 @@ return(
           <h1 class="okay">RAINBOWS OF EXCITING FLAVORS!</h1>
 <div class = "no">
         <article class = "pennn">15 flavors available including 7 color free flavors. Each case contains 6 - ½ gallon bottles of your choice. We’ve designed them especially for childcare, daycare, preschool, basp and extended daycare. Get in touch with us today!
-            <br/>
-            <br/>
+        <br/>
+        <br/>
+
+        <img src="images/rainbow.jpeg" alt="Rainbow Flavors" class="rain"/>
+            
             <button class= "learn" type="button">Learn More!</button>
             
         </article>
         
-        <img src="images/rainbow.jpeg" alt="Rainbow Flavors" class="rain"/>
+        
     </div>
     
         
@@ -35,13 +38,14 @@ return(
 
 
         <section class="pieceof">
-        <h1 class="okays">Healthy Juice Concentrates for All Kids to Enjoy</h1>
+        <h1 class="okay">Healthy Juice Concentrates for All Kids to Enjoy</h1>
         <img src="images/apjuice.png" alt="Juices" class="juice"/>
         
-        <article class = "pennn"> We provide a variety of flavors that all kids can enjoy! All the juice concentrates that we sell are compliant with the USDA and FDA guidelines. You don't need to refrigerate the concentrates before or after opening them.
+        <article class = "pent"> We provide a variety of flavors that all kids can enjoy! All the juice concentrates that we sell are compliant with the USDA and FDA guidelines. You don't need to refrigerate the concentrates before or after opening them.
         </article>
-      
+      <br/>
         <img src="images/kidsss.jpeg" alt="Kids" class="kids"/>
+        <br/>
         </section>
 
         <section class="pieceofpi">
@@ -63,7 +67,7 @@ return(
         </section>
         </section>
         
-  
+        </body>
   
         
 </>

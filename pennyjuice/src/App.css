@@ -1,3 +1,7 @@
+.myback {
+  background-color: #faf1e6;
+}
+
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cupss.jpg");
   height: 30%;
@@ -14,7 +18,7 @@
 }
 
 .topstuff {
-  color: #77DDF9;
+  color: #ffc074;
 }
 
 .thegrid {
@@ -24,7 +28,7 @@
 }
 
 .piece {
-  background-color: #e4dada;
+  background-color: #faf1e6;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -35,13 +39,13 @@
 }
 
 .pieceof {
-  background-color: #eee6e6;
+  background-color: #B6C867;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .pieceofpi {
-  background-color: #e4dada;
+  background-color: #faf1e6;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -50,22 +54,13 @@
   margin: 30px 90px;
   text-align: center;
   font-size: 30px;
-  color: #FFA0A3;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-.okays {
-  margin: 30px 90px;
-  text-align: center;
-  font-size: 30px;
-  color: #77DDF9;
+  color: #01937C;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 .rain {
-  float: left;
+  float: center;
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -96,7 +91,7 @@
 }
 
 .order {
-  background-color: #FFA0A3;
+  background-color: #B6C867;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -107,7 +102,13 @@
 
 .pennn {
   text-align: center;
-  color: #7F8FA3;
+  color: #b4822c;
+  font-size: 20px;
+}
+
+.pent {
+  text-align: center;
+  color: #F4EEA9;
   font-size: 20px;
 }
 
@@ -124,7 +125,7 @@
 .learn {
   margin: 30px 90px;
   text-align: center;
-  background-color: #77DDF9;
+  background-color: #B6C867;
   color: white;
   padding: 15px 32px;
   text-align: center;
