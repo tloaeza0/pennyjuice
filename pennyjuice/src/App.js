@@ -1,8 +1,8 @@
 import { Route, Routes} from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ProductsPage from "./pages/ProductsPage";
-import ContactPage from "./Pages/contactPage";
-import OrderPage from './pages/OrderPage'
+import HomePage from "./Pages/HomePage";
+import ProductsPage from "./Pages/ProductsPage";
+import ContactPage from "./Pages/ContactPage";
+import OrderPage from './Pages/OrderPage'
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 
@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
+      
       <NavBar />
       <main>
         <Routes>

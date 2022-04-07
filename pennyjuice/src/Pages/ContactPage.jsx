@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../components/Contact/ContactForm'
+import ContactForm from '../Components/Contact/ContactForm'
 
 
 const ContactPage = () => {
@@ -10,4 +10,4 @@ const ContactPage = () => {
   )
 }
 
-export default contactPage
+export default ContactPage
