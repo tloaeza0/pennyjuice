@@ -11,29 +11,29 @@
 }
 .ordertext {
   text-align: center;
-  width:55%;
+  width:60%;
   color: white;
   text-transform: uppercase;
   font-size: 2rem;
-  padding-top: 3em;
-  margin-left: .8em;
+  padding-top: 5em;
+  margin-left: 3em;
   font-family: "Libre Baskerville", serif;
 }
-.ordercontainer {
+/* .ordercontainer {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   background-color: white;
-}
+} */
 
 form {
   margin-left: 4em;
-  width: 100%;
+  width: 80%;
   height: 30vh;
 }
 .name {
   margin-left: 1.5em;
   margin-top: 1em;
-  width: 18em;
+  width: 16em;
 }
 .formlabel {
   padding-top: 1em;
@@ -41,7 +41,7 @@ form {
   font-family: 'Darker Grotesque', sans-serif;
 }
 input {
-  width: 18em;
+  width: 16em;
   height: 50px;
   margin-left: 1.5em;
   margin-top: 1em;
@@ -51,12 +51,13 @@ input {
 }
 .productorder {
   background-color: #ededed;
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
-  grid-template-rows: repeat(12, 1fr);
+  margin-top: 40em;
+  /* grid-template-rows: repeat(12, 1fr); */
 }
 .flavorh2{
-  text-align: center;
+  margin-left: 3em;
   font-size: 3em;
   font-family: 'Darker Grotesque', sans-serif;
 }
@@ -81,6 +82,14 @@ button {
 .amounth2{
   font-family: 'Lexend', sans-serif;
 }
+.itemamount{
+  margin-left: 7em;
+}
+#submitbtn{
+  color:white;
+  background-color: black;
+  margin-left: 6em;
+}
 @media only screen and (min-width:1024px) and (max-width:1800px){
 .orderhero{
   height:60vh;
@@ -96,13 +105,16 @@ button {
 .ordercontainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+ 
 }
 .productorder {
   background-color: #ededed;
-  height: 95vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 2em;
+  height: 100vh;
+  width:50%;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  margin-left: 45em;
+  margin-top: -43.5em;
 }
 .flavors{
   margin-left: 8em;
@@ -121,15 +133,12 @@ button {
   font-family: 'Lexend', sans-serif;
   text-align: left;
 }
-/* .value {
- background-color: #B6C867; 
-  height: 80vh;
-} */
+
 form {
   margin-left: 3em;
   margin-top: 3em;
-  background-color:white;
   height:90vh;
+  width:50%;
   
 }
 .name {
@@ -152,8 +161,8 @@ button {
   border:none;
 }
 .itemamount{
-  padding-top: 3em;
-  margin-left: 5em;
+  margin-top: -2.3em;
+  margin-left: 15em;
 }
 .amounth2{
   font-size: 1.5em;
@@ -168,17 +177,11 @@ button {
   color:white;
   font-family: 'Lexend', sans-serif;
   font-size: .9em;
-  margin-top: 6em;
+  margin-top: -15em;
+  margin-left: 5em;
+  position: relative;
 }
 #submitbtn:hover{
   background-color:#B6C867;
 }
 }
-/* 
-.home, .about, .products{
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-} */
