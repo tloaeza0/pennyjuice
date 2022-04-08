@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import Axios from "axios";
+import "./contact.css"
+
 
 const ContactForm = () => {
   const [firstName, setfirstName] = useState("");
@@ -25,8 +27,8 @@ const ContactForm = () => {
 
   return (
     <>
-      <form>
-        <h1>First Name</h1>
+      <form className="contact-container">
+        <h1 className="title">First Name</h1>
         <input
           type="text"
           name="firstName"
@@ -34,7 +36,7 @@ const ContactForm = () => {
             setfirstName(e.target.value);
           }}
         />
-        <h1>Last Name</h1>
+        <h1 className="title">Last Name</h1>
         <input
           type="text"
           name="lastName"
@@ -42,7 +44,7 @@ const ContactForm = () => {
             setlastName(e.target.value);
           }}
         />
-        <h1>E-mail</h1>
+        <h1 className="title">E-mail</h1>
         <input
           type="email"
           name="email"
@@ -50,7 +52,7 @@ const ContactForm = () => {
             setemail(e.target.value);
           }}
         />
-        <h1>Phone Number</h1>
+        <h1 className="title">Phone Number</h1>
         <input
           type="tel"
           name="phoneNumber"
@@ -59,7 +61,7 @@ const ContactForm = () => {
             setphoneNumber(e.target.value);
           }}
         />
-        <h1>Message</h1>
+        <h1 className="title">Message</h1>
         <input
           type="text"
           name="message"
