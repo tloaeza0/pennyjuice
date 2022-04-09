@@ -1,6 +1,6 @@
 
 
-#main
+#main2
 {
 position: relative;
 z-index: 1;
@@ -22,24 +22,26 @@ z-index: 1;
 
   .swiper-slide h1.flaveName2{ 
    opacity: 0;
-   position: absolute;
-   top: 25%;
+   position: relative;
+   top: 20%;
    z-index: 5;
-   font-size: 3rem;
+   font-size: 3vw;
+   width: 25vw;
    background-color: rgba(0, 0, 0, 0.543);
-   padding: 1rem;
+   padding: 0.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 0.5em;
     color: white;
+    text-align: center;
   }
 
   .HB2 button.HC { 
    opacity: 1;
-   padding: 0%;
+   padding: 2%;
    margin: 0%;
    z-index: 6;
-   height: 10%;
-   width: 35vw;
+   height: 7%;
+  //  width: 20vw;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -50,16 +52,16 @@ z-index: 1;
   }
 
    .HB2 button.HC p { 
-    font-size: 2rem;
-     padding: 0%;
+    font-size: 1rem;
+     padding-right: 2%;
     margin: 0%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
   
 
    .HB2 button.HC select { 
-    font-size: 2rem;
-    width: 20%;
+    font-size: 1rem;
+    // width: 20%;
     padding: 0%;
     margin: 0%;
     text-align: center;
@@ -117,6 +119,13 @@ z-index: 1;
       opacity: 1;
   }
 
+        .swiper-slide.swiper-slide-active img.flavorPics2{
+        border-style: solid;
+        border-width: 0.3em;
+        border-top: 3%;
+        border-color: black;
+        }
+
      .swiper-slide.swiper-slide-active .homeCartbutton2{
       opacity: 1;
   }
@@ -138,6 +147,17 @@ z-index: 1;
     transform: translateY(300%);
    }
 
+     #main2 div.swiper-button-next
+   {
+      left:95.5%;
+     right: auto;
+   }
+
+    #main2 div.swiper-button-prev
+   {
+      right:95.5%;
+     left: auto;
+   }
 
   
   div.swiper-pagination {

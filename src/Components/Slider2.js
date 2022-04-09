@@ -12,6 +12,8 @@ import "swiper/css/effect-cards";
 
 import ImageData from "./ImageData";
 import CheckoutButton from "./CheckoutButton";
+import FlavorName from "./FlavorNames";
+
 
 SwiperCore.use([Navigation, Pagination, Controller, EffectCoverflow]);
 
@@ -21,10 +23,10 @@ function Slider2() {
   for (let i = 0; i < 15; i += 1) {
     flavor.push(
       <SwiperSlide className="HB2" key={`slide-${i}`} tag="li">
-        <h1 className="flaveName2">Hello </h1>
+        <h1 className="flaveName2">{FlavorName[i]} </h1>
         <img
           src={ImageData[i]}
-          alt={`Thumbnail ${i}`}
+          alt={`Thumbnail ${i}`} 
           className="flavorPics2"
         />
         <CheckoutButton className="homeCartbutton2" />

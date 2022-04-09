@@ -6,6 +6,7 @@ import "swiper/css/effect-cards";
 
 import ImageData from './ImageData'
 import CheckoutButton from './CheckoutButton'
+import FlavorName from './FlavorNames'
 
 
 SwiperCore.use([Navigation, Pagination, Controller]);
@@ -17,7 +18,7 @@ function Slider1 ()
     for (let i = 0; i < 15; i += 1) {
       flavor.push(
         <SwiperSlide className="HB1" key={`slide-${i}`} tag="li">
-          <h1 className="flaveName1">Hello </h1>
+          <h1 className="flaveName1">{FlavorName[i]} </h1>
           <img
             src={ImageData[i]}
             alt={`Thumbnail ${i}`}
@@ -33,7 +34,7 @@ function Slider1 ()
     return (
       <React.Fragment>
         <Swiper
-          id="main"
+          id="main1"
           tag="section"
           modules={[EffectCards]}
           effect={"cards"}

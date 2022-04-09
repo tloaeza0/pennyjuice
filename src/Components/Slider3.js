@@ -12,6 +12,8 @@ import "swiper/css/effect-flip";
 
 import ImageData from "./ImageData";
 import CheckoutButton from "./CheckoutButton";
+import FlavorName from "./FlavorNames";
+
 
 SwiperCore.use([Navigation, Pagination, Controller, EffectFlip]);
 
@@ -21,7 +23,7 @@ function Slider3() {
   for (let i = 0; i < 15; i += 1) {
     flavor.push(
       <SwiperSlide className="HB3" key={`slide-${i}`} tag="li">
-        <h1 className="flaveName3">Hello </h1>
+        <h1 className="flaveName3">{FlavorName[i]} </h1>
         <CheckoutButton />
         <img
           src={ImageData[i]}

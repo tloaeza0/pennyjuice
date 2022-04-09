@@ -1,5 +1,5 @@
 
-#main
+#main3
 {
 position: relative;
 z-index: 1;
@@ -15,6 +15,10 @@ z-index: 1;
     position: absolute;
     border-radius: 1em;
     z-index: 1;
+    border-style: solid;
+    border-width: 0.3em;
+    border-top: 3%;
+    border-color: black;
   }
 
   .swiper
@@ -52,7 +56,8 @@ z-index: 1;
    position: absolute;
    top: 20%;
    z-index: 5;
-   font-size: 3rem;
+   text-align: center;
+   font-size: 1.5rem;
    background-color: rgba(0, 0, 0, 0.543);
    padding: 1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -62,31 +67,32 @@ z-index: 1;
 
   .HB3 button.HC { 
    opacity: 1;
-   padding: 0%;
+   padding: 1%;
    margin: 0%;
    z-index: 6;
-   height: 10%;
-   width: 35vw;
+   height: 7%;
+  //  width: 35vw;
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: space-around;
    border-radius: 1em;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
   }
 
    .HB3 button.HC p { 
-    font-size: 2rem;
+    font-size: 1rem;
      padding: 0%;
+     padding-right: 1%;
     margin: 0%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
   
 
    .HB3 button.HC select { 
-    font-size: 2rem;
-    width: 20%;
+    font-size: 1rem;
+    // width: 20%;
     padding: 0%;
     margin: 0%;
     text-align: center;
@@ -118,13 +124,29 @@ z-index: 1;
     padding: 0%;
   }
 
-    div.swiper-button-next::after, div.swiper-button-prev::after  
+   div.swiper-button-next::after ,div.swiper-button-prev::after
     {
-    font-weight:900;
+    color: red;
     -webkit-text-stroke-width: 0.1em;
-    transform: translateY(300%);
+    transform: translateY(0%);
    }
 
+   #main3 div.swiper-button-next , #main3 div.swiper-button-prev
+    {
+     top: 45%;
+   }
+
+   #main3 div.swiper-button-next
+   {
+      left:94%;
+     right: auto;
+   }
+
+     #main3 div.swiper-button-prev
+   {
+      right:94%;
+     left: auto;
+   }
 
   
   div.swiper-pagination {
