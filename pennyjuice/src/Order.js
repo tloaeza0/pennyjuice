@@ -1,10 +1,9 @@
 import "./order.css";
-import React, { Component } from "react";
+import React from "react";
 import OrderPage from "./Components/OrderPage.js";
-import Addbutton from "./Components/Addbutton";
 
 
-export default class Order extends Component {
+class Order extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,14 +28,14 @@ export default class Order extends Component {
   }
 
   render() {
-    <Addbutton/>
     const mappedFlavors = this.state.flavors.map((flavor, index) => {
       return <OrderPage key={index} flavors={flavor} />;
     });
+
     return (
       <div>
         <div className="orderhero">
-          <h1 className="ordertext"> Place your order here </h1>
+          <h1 className="ordertext"> Place your order here</h1>
         </div>
 
         <div className="orderconatiner">
@@ -104,22 +103,21 @@ export default class Order extends Component {
               placeholder="Zip Code"
               required
             ></input>
-
-            
+            <input id="submitbtn" type="submit"></input>
           </form>
 
           <div className="productorder">
             <div className="flavors">
               <h2 className="flavorh2">Flavors</h2>
               <div className="item">{mappedFlavors}</div>
-             
+               <div className="itemamount">
+               
+              </div> 
             </div>
-            
           </div>
-          <input id="submitbtn" type="submit"></input>
         </div>
       </div>
-     
     );
   }
 }
+export default Order;
