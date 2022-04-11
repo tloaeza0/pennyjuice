@@ -11,7 +11,7 @@ const About = () => {
             Gets delicious and nutritious 100% fruit juice from us Today! We
             provide 100% blended fruit juice and containers specially made for
             kids and let's not forget that Penny Juice meets all the
-            requirements of the FDA regarding subsidy and nutrition.{" "}
+            requirements of the FDA regarding subsidy and nutrition.
           </p>
         </div>
       </div>

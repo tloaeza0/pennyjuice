@@ -64,8 +64,19 @@ font-family: 'Lexend', sans-serif;
     
  
   }
+  
   @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
+    div.heroimgone_text {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.heroimgtwo_text {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div.heroimgthree_text {
+      font-size: 20px;
     }
   }
