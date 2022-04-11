@@ -1,6 +1,6 @@
 import "./order.css";
 import React from "react";
-import OrderPage from "./Components/OrderPage.js";
+import OrderPage from "./Components/OrderPage";
 import Addbutton from "./Components/Addbutton";
 
 
@@ -41,10 +41,10 @@ class Order extends React.Component {
         </div>
 
         <div className="orderconatiner">
-          <form>
+          <form className = 'orderform'>
             <h2 className="formlabel">Full Name</h2>
 
-            <input
+            <input 
               className="name"
               type="text"
               id="fname"
@@ -61,7 +61,7 @@ class Order extends React.Component {
               placeholder="Last Name"
             ></input>
             <h2 className="formlabel">Phone Number</h2>
-            <input
+            <input className = 'orderinput'
               type="number"
               id="phonenum"
               name="phonenum"
@@ -69,7 +69,7 @@ class Order extends React.Component {
               required
             ></input>
             <h2 className="formlabel">Email</h2>
-            <input
+            <input className = 'orderinput'
               type="email"
               id="email"
               name="email"
@@ -77,28 +77,28 @@ class Order extends React.Component {
               required
             ></input>
             <h2 className="formlabel">Delivery Address</h2>
-            <input
+            <input className = 'orderinput'
               type="text"
               id="address"
               name="address"
               placeholder=" Street Address"
               required
             ></input>
-            <input
+            <input className = 'orderinput'
               type="text"
               id="city"
               name="city"
               placeholder="City"
               required
             ></input>
-            <input
+            <input className = 'orderinput'
               type="text"
               id="state"
               name="state"
               placeholder=" State"
               required
             ></input>
-            <input
+            <input className = 'orderinput'
               type="number"
               id="zipcode"
               name="zipcode"

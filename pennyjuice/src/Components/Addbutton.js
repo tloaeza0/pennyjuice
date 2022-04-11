@@ -24,9 +24,9 @@ class Addbutton extends React.Component {
         return (
             <>
              <div className = "item">
-                <button id="minus" onClick={minusValue} > - </button>
+                <button className = 'Addbtn' id="minus" onClick={minusValue} > - </button>
                 <input type="number" defaultValue="0" id='box' />
-                <button id="add" onClick = {addValue}> + </button>
+                <button className = 'Addbtn' id="add" onClick = {addValue}> + </button>
             </div>
             </>
         )
