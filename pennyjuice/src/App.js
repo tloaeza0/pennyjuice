@@ -1,11 +1,8 @@
 import { Route, Routes} from "react-router-dom";
-import './App.css';
 import ContactPage from "./Pages/ContactPage";
-
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-
 
 function App() {
   return (
