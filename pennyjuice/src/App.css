@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap");
 .myback {
   background-color: #faf1e6;
 }
@@ -19,6 +21,7 @@
 
 .topstuff {
   color: #ffc074;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 .thegrid {
@@ -57,6 +60,7 @@
   color: #01937C;
   border-radius: 5px;
   box-sizing: border-box;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 .rain {
@@ -97,19 +101,22 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 .pennn {
   text-align: center;
   color: #b4822c;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 .pent {
   text-align: center;
   color: #F4EEA9;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 .pennyofa {
@@ -131,7 +138,8 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: ‘Libre Baskerville’, serif;
 }
 
 /*# sourceMappingURL=app.css.map */
