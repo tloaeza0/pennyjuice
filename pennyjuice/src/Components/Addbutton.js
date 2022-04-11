@@ -1,11 +1,11 @@
 import React from 'react'
 
 class Addbutton extends React.Component {
+    
     render() {
-        const inputbox = document.getElementById('box');
-        
-
+       
         const minusValue = (event) => {
+            const inputbox = document.getElementById('box');
             event.preventDefault();
             const currentValue = Number(inputbox.value) || 0;
             inputbox.value = currentValue - 1;
@@ -13,20 +13,22 @@ class Addbutton extends React.Component {
         }
 
         const addValue = (event) => {
+            const inputbox = document.getElementById('box');
             event.preventDefault();
             const currentValue = Number(inputbox.value) || 0;
             inputbox.value = currentValue + 1;
-        }    
+        }
     
 
     
         return (
-            <div>
+            <>
+             <div className = "item">
                 <button id="minus" onClick={minusValue} > - </button>
                 <input type="number" defaultValue="0" id='box' />
-                <button id="add" onClick={addValue}> + </button>
+                <button id="add" onClick = {addValue}> + </button>
             </div>
-          
+            </>
         )
     }
 };

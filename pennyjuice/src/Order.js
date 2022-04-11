@@ -1,6 +1,8 @@
 import "./order.css";
 import React from "react";
 import OrderPage from "./Components/OrderPage.js";
+import Addbutton from "./Components/Addbutton";
+
 
 
 class Order extends React.Component {
@@ -31,7 +33,7 @@ class Order extends React.Component {
     const mappedFlavors = this.state.flavors.map((flavor, index) => {
       return <OrderPage key={index} flavors={flavor} />;
     });
-
+      
     return (
       <div>
         <div className="orderhero">
@@ -111,7 +113,8 @@ class Order extends React.Component {
               <h2 className="flavorh2">Flavors</h2>
               <div className="item">{mappedFlavors}</div>
                <div className="itemamount">
-               
+                 
+                <Addbutton/>
               </div> 
             </div>
           </div>

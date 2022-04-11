@@ -1,6 +1,6 @@
 import React from "react";
 import Addbutton from "./Addbutton";
-//import Addbutton from "./Addbutton";
+
 
 const OrderPage = ({ flavors }) => {
   
@@ -11,7 +11,8 @@ const OrderPage = ({ flavors }) => {
       </div>
       <div className="itemamount">
         <div className="item">
-          <Addbutton/>
+        <Addbutton/>
+          
         </div>
       </div>
     </>
