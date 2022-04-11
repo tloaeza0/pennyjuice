@@ -26,6 +26,7 @@ const ContactForm = () => {
 
   return (
     <>
+    <div className='main-con'>
       <form className="contact-container">
         <div className="firstAndlast">
           <h1 className="title">First Name</h1>
@@ -90,6 +91,7 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
+      </div>
     </>
   );
 };

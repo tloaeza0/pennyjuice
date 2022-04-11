@@ -11,8 +11,9 @@
   justify-items: center;
   margin-left: 470px;
   padding:10px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 40px;
+  
 }
 
 
@@ -61,6 +62,13 @@
     border: 1px solid rgba(0,0,0,1);
 }
 
+.main-con{
+  background-image: url("https://cdn.vectorstock.com/i/1000x1000/87/04/mix-cute-fruits-seamless-pattern-background-vector-21058704.webp");
+ height:70vh;
+ padding-top:40px;
+ filter: grayscale(10%);
+}
+
 @media only screen and (max-width: 667px) {
   .contact-container{
     background: #F4EEA9;
@@ -96,5 +104,11 @@
     margin-bottom: 40px;
   }
   
+  .main-con{
+    background-image: url("https://cdn.vectorstock.com/i/1000x1000/87/04/mix-cute-fruits-seamless-pattern-background-vector-21058704.webp");
+   height:65vh;
+   padding-top:40px;
+   filter: grayscale(10%);
+  }
 }
 
