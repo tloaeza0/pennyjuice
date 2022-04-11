@@ -28,10 +28,12 @@ const ContactForm = () => {
   return (
     <>
       <form className="contact-container">
+        <div className="firstAndlast">
         <h1 className="title">First Name</h1>
         <input
           type="text"
           name="firstName"
+          placeholder="Peter"
           onChange={(e) => {
             setfirstName(e.target.value);
           }}
@@ -40,14 +42,17 @@ const ContactForm = () => {
         <input
           type="text"
           name="lastName"
+          placeholder="Parker"
           onChange={(e) => {
             setlastName(e.target.value);
           }}
         />
+        </div>
         <h1 className="title">E-mail</h1>
         <input
           type="email"
           name="email"
+          placeholder="myemail@gmail.com"
           onChange={(e) => {
             setemail(e.target.value);
           }}
@@ -56,6 +61,7 @@ const ContactForm = () => {
         <input
           type="tel"
           name="phoneNumber"
+          placeholder="980-222-4423"
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           onChange={(e) => {
             setphoneNumber(e.target.value);
@@ -65,6 +71,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="message"
+          placeholder="Feel Free To Send Us Feedback"
           onChange={(e) => {
             setmessage(e.target.value);
           }}
