@@ -11,6 +11,11 @@ body, html {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
+}
+
 #main1 {
   position: relative;
   z-index: 1;
@@ -73,6 +78,7 @@ body, html {
   border-width: 0.3em;
   border-top: 3%;
   border-color: black;
+  border-color: #064635;
 }
 
 .swiper-slide.swiper-slide-active .homeCartbutton1 {
@@ -135,7 +141,7 @@ body, html {
   width: 60vw;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 0.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   border-radius: 0.5em;
   color: white;
   text-align: center;
@@ -180,6 +186,11 @@ div.swiper-pagination {
           transform: translateY(-575%);
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
+}
+
 #main2 {
   position: relative;
   z-index: 1;
@@ -194,6 +205,7 @@ div.swiper-pagination {
      object-fit: cover;
   position: absolute;
   border-radius: 1em;
+  border-color: #064635;
   z-index: 1;
 }
 
@@ -206,7 +218,7 @@ div.swiper-pagination {
   width: 25vw;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 0.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   border-radius: 0.5em;
   color: white;
   text-align: center;
@@ -217,7 +229,6 @@ div.swiper-pagination {
   padding: 2%;
   margin: 0%;
   z-index: 6;
-  height: 7%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,7 +247,7 @@ div.swiper-pagination {
 }
 
 .HB2 button.HC p {
-  font-size: 1rem;
+  font-size: 1.5vw;
   padding-right: 2%;
   margin: 0%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -298,7 +309,7 @@ div.swiper-pagination {
   border-style: solid;
   border-width: 0.3em;
   border-top: 3%;
-  border-color: black;
+  border-color: #064635;
 }
 
 .swiper-slide.swiper-slide-active .homeCartbutton2 {
@@ -332,6 +343,11 @@ div.swiper-pagination {
           transform: translateY(-575%);
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
+}
+
 #main3 {
   position: relative;
   z-index: 1;
@@ -350,7 +366,7 @@ div.swiper-pagination {
   border-style: solid;
   border-width: 0.3em;
   border-top: 3%;
-  border-color: black;
+  border-color: #064635;
 }
 
 .swiper {
@@ -388,7 +404,7 @@ div.swiper-pagination {
   font-size: 1.5rem;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   border-radius: 0.5em;
   color: white;
 }
@@ -398,7 +414,6 @@ div.swiper-pagination {
   padding: 1%;
   margin: 0%;
   z-index: 6;
-  height: 7%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,7 +466,7 @@ div.swiper-pagination {
 }
 
 div.swiper-button-next::after, div.swiper-button-prev::after {
-  color: red;
+  color: #064635;
   -webkit-text-stroke-width: 0.1em;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);

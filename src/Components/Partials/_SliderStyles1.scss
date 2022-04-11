@@ -1,5 +1,10 @@
 
 
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap') format( 'Darker Grotesque', 'Lexend','Libre Baskerville');}
+
 #main1
 {
 position: relative;
@@ -67,6 +72,7 @@ z-index: 1;
     border-width: 0.3em;
     border-top: 3%;
     border-color: black;
+     border-color:  rgb(6, 70, 53);
   }
 
      .swiper-slide.swiper-slide-active .homeCartbutton1{
@@ -125,7 +131,7 @@ z-index: 1;
    width: 60vw;
    background-color: rgba(0, 0, 0, 0.543);
    padding: 0.5rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
     border-radius: 0.5em;
     color: white;
     text-align: center;

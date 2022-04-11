@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap') format( 'Darker Grotesque', 'Lexend','Libre Baskerville');}
+
+
 #main3
 {
 position: relative;
@@ -18,7 +23,7 @@ z-index: 1;
     border-style: solid;
     border-width: 0.3em;
     border-top: 3%;
-    border-color: black;
+    border-color: rgb(6, 70, 53);
   }
 
   .swiper
@@ -60,7 +65,7 @@ z-index: 1;
    font-size: 1.5rem;
    background-color: rgba(0, 0, 0, 0.543);
    padding: 1rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
     border-radius: 0.5em;
     color: white;
   }
@@ -70,7 +75,7 @@ z-index: 1;
    padding: 1%;
    margin: 0%;
    z-index: 6;
-   height: 7%;
+  //  height: 7%;
   //  width: 35vw;
    display: flex;
    flex-direction: row;
@@ -126,7 +131,7 @@ z-index: 1;
 
    div.swiper-button-next::after ,div.swiper-button-prev::after
     {
-    color: red;
+    color:  rgb(6, 70, 53);
     -webkit-text-stroke-width: 0.1em;
     transform: translateY(0%);
    }
