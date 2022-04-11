@@ -136,7 +136,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    gap: 400px;
+    gap: 300px;
   }
   .par3{
     display: flex;
