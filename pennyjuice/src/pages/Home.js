@@ -26,7 +26,7 @@ return(
 
         <img src="images/rainbow.jpeg" alt="Rainbow Flavors" className="rain"/>
             
-        <a href = 'About' ><button className= "learn" type="button">Learn More!</button></a>
+            <a href = 'About' ><button className= "learn" type="button">Learn More!</button></a>
             
         </article>
         
