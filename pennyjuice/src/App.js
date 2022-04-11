@@ -6,6 +6,8 @@ import About from "./Components/About";
 import "./App.css";
 import Home from "./Pages/Home";
 import Order from "./Order";
+import './main.css';
+import Slider from "./Components/Slider";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
 
       <Routes>
         <Route path="/Home" element={<Home />} />
+
+         <Route path="/Products" element={<Slider/>} />
 
         <Route path="/About" element={<About />} />
 
