@@ -3,6 +3,9 @@ import ContactPage from "./Pages/ContactPage";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
+import './App.css';
+import Home from './Pages/Home';
+
 
 function App() {
   return (
@@ -10,7 +13,7 @@ function App() {
       <NavBar />
       <main>
         <Routes>
-         <Route path='/' />
+        <Route path ="/" element = {<Home/>}></Route>
           
           <Route path="/About" element={<About />} />
          
@@ -19,8 +22,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </div>
-  );
+      </div>
+  )
 }
-
 export default App;
