@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -184,11 +185,6 @@ div.swiper-button-next::after, div.swiper-button-prev::after {
 div.swiper-pagination {
   -webkit-transform: translateY(-575%);
           transform: translateY(-575%);
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
 }
 
 #main2 {
