@@ -22,7 +22,7 @@
   margin:5px;
 }
 
-input{
+.contact-input{
   display: block;
   width: 100%;
   font-size: 15px;
@@ -37,11 +37,11 @@ input{
   color: rgba(0,0,0,1);
   text-align: center;
 }
-input:focus{
+.contact-input:focus{
   border-bottom: 5px solid #B6C867;
 }
 
-button{
+.Contact-btn{
   display: block;
   margin: 0 auto;
   line-height: 15px * 2;
@@ -55,7 +55,7 @@ button{
   height: 30px
 }
 
-button:hover{
+.Contact-btn:hover{
   background: rgba(0,0,0,1);
     color: white;
     border: 1px solid rgba(0,0,0,1);
