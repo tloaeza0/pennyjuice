@@ -11,7 +11,7 @@ return(
     <section id="hero">
 		<div className="hero-content">
 			<h1 className = "topstuff">100% blended fruit juice concentrate specifically designed for childcare centers. </h1>
-            <button className= "order" type="button">Order Now!</button>
+            <a href = 'Order' ><button className= "order" type="button">Order Now!</button></a>
 		</div>
 	</section>
 
@@ -26,7 +26,7 @@ return(
 
         <img src="images/rainbow.jpeg" alt="Rainbow Flavors" className="rain"/>
             
-            <button className= "learn" type="button">Learn More!</button>
+            <a href = 'About' ><button className= "learn" type="button">Learn More!</button></a>
             
         </article>
         
