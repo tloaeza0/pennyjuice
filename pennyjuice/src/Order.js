@@ -105,7 +105,7 @@ class Order extends React.Component {
               placeholder="Zip Code"
               required
             ></input>
-            <input id="submitbtn" type="submit"></input>
+            <input id="ordersubmitbtn" type="submit"></input>
           </form>
 
           <div className="productorder">
