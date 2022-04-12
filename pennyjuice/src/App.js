@@ -1,4 +1,4 @@
-import { Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactPage from "./Pages/ContactPage";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
@@ -26,9 +26,9 @@ function App() {
 
         <Route path="/Products" element={<Slider />} />
       </Routes>
+
       <Footer />
-      </Router>
+    </Router>
   );
 }
-
 export default App;
