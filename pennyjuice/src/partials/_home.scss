@@ -115,8 +115,14 @@
   display: inline-block;
   font-size: 25px;
   width: auto;
+  border: #B6C867;
   font-family: ‘Libre Baskerville’, serif;
 }
+
+.order:hover{
+  background-color: #ffc074; 
+}
+
 
 .pennn {
   text-align: center;
@@ -146,6 +152,7 @@
   margin: 30px 90px;
   text-align: center;
  background-color: #B6C867; 
+ border: #B6C867;
  color: white;
  padding: 15px 32px;
  text-align: center;
@@ -154,4 +161,8 @@
  font-size: 25px;
  width: auto;
  font-family: ‘Libre Baskerville’, serif;
+}
+.learn:hover{
+  background-color: #ffc074; 
+
 }
