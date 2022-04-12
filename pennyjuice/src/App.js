@@ -1,25 +1,33 @@
-import { Route, Routes } from "react-router-dom";
-import ContactPage from "./pages/ContactPage";
+import { Router, Route, Routes } from "react-router-dom";
+import ContactPage from "./Pages/ContactPage";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Home from "./pages/Home";
+import "./App.css";
+import "./main.css";
+import Home from "./Pages/Home";
 import Order from "./Order";
+import Slider from "./Components/Slider";
 
 function App() {
   return (
-    <div>
-      <NavBar className="nb"/>
-      <main>
-        <Routes>
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/order" element={<Order />} />
-        </Routes>
-      </main>
+    <Router>
+      <NavBar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        
+        <Route path="/Home" element={<Home />} />
+
+        <Route path="/About" element={<About />} />
+
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/Order" element={<Order />} />
+
+        <Route path="/Products" element={<Slider />} />
+      </Routes>
       <Footer />
-    </div>
+      </Router>
   );
 }
 
