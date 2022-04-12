@@ -7,7 +7,7 @@
 .orderhero {
   width: 100%;
   height: 40vh;
-  background: url("../public/img/papaya.jpeg") no-repeat center/cover;
+  background: url("./img/papaya.jpeg") no-repeat center/cover;
 }
 .ordertext {
   text-align: center;

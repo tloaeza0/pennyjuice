@@ -4,12 +4,12 @@
 *{
   /* font-family: 'Darker Grotesque', sans-serif;*/
 /* font-family: 'Lexend', sans-serif;  */
-font-family: 'Libre Baskerville', serif;
+font-family: 'Libre Baskerville', serif; 
 }
 .heroimgone_container {
   width: 100%;
   height: 80vh;
-  background: url(../../public/img/orangeblue.jpeg);
+  background: url(../img/orangeblue.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ font-family: 'Libre Baskerville', serif;
 }
 
 .heroimgtwo {
- background: url(../../public/img/kk.jpeg);
+ background: url(../img/kk.jpeg);
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -46,7 +46,7 @@ font-family: 'Libre Baskerville', serif;
   }
 
 .heroimgthree {
-    background: url(../../public/img/orangecent.jpeg);
+    background: url(../img/orangecent.jpeg);
   height: 80vh;
   width: 100%;
   background-attachment: fixed;
