@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.padding{
+  padding-top: 15px;
+}
 .navbar {
   background-color: whitesmoke;
   height: 12.5rem;
@@ -98,7 +101,7 @@ span {
 .link-color:hover {
   color: #ff914d;
 }
-@media (min-width: 1401px)and (max-width: 3000px) {
+@media (min-width: 1300px)and (max-width: 3000px) {
   .whole-nav-content{
     display: none;
   }
@@ -106,7 +109,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    gap: 600px;
+    gap: 500px;
   }
   .par3{
     display: flex;
@@ -128,7 +131,7 @@ span {
     height: 300px;
   }
 }
-@media (min-width: 1280px)and (max-width: 1400px) {
+@media (min-width: 1280px)and (max-width: 1290px) {
   .whole-nav-content{
     display: none;
   }
@@ -262,6 +265,9 @@ span {
     height: 55vh;
     background-color: whitesmoke;
   }
+  .navbar-toggle {
+    height: 200px;
+  }
   .secondnav {
     display: none;
   }
@@ -291,11 +297,14 @@ span {
 }
 @media (min-width: 412px) and (max-width: 539px) {
   .whole-nav-content {
-    height: 50vh;
+    height: 45vh;
     background-color: whitesmoke;
   }
   .secondnav {
     display: none;
+  }
+  .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     padding-left: 1px;
@@ -313,8 +322,8 @@ span {
   }
   .par2 {
     font-size: 20px;
-    padding-left: 10px;
-    width: 314px;
+    /* padding-left: 2px; */
+    width: 338px;
   }
   
   .orangelogo {
@@ -330,6 +339,9 @@ span {
   }
   .secondnav {
     display: none;
+  }
+  .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     padding-left: 0.04rem;
@@ -365,6 +377,9 @@ span {
   .secondnav {
     display: none;
   }
+  .navbar-toggle {
+    height: 200px;
+  }
   .nav-content {
     padding-left: 1rem;
   }
@@ -396,6 +411,9 @@ span {
   }
   .secondnav {
     display: none;
+  }
+  .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     display: flex;
