@@ -11,9 +11,9 @@
   align-items: center;
   justify-items: center;
   margin-left: 470px;
-  padding: 10px;
-  /* margin-top: 30px; */
-  margin-bottom: 40px;
+  padding:10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -63,7 +63,7 @@
 
 .main-con {
   background-image: url("https://cdn.vectorstock.com/i/1000x1000/87/04/mix-cute-fruits-seamless-pattern-background-vector-21058704.webp");
-  height: 70vh;
+  height: 85vh;
   padding-top: 40px;
   filter: grayscale(10%);
 }
