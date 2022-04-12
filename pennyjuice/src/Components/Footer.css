@@ -42,6 +42,10 @@ body {
   padding-right: 7px;
   padding-left: 7px;
 }
+.new-contact a{
+  text-decoration: none;
+  color: #ff914d;
+}
 /* .copyright{
   padding-left: 160px;
   font-size: 10px;
@@ -55,42 +59,43 @@ body {
 }
 @media (min-width: 1280px)and (max-width: 4000px) {
   .p1 {
-    font-size: 25px;
+    font-size: 20px;
     border-right: solid;
     padding-right: 7px;
   }
   .p2 {
-    font-size: 25px;
+    font-size: 20px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p3 {
-    font-size: 25px;
+    font-size: 20px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p4 {
-    font-size: 25px;
+    font-size: 20px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p5 {
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 7px;
     padding-left: 7px;
   }
   .foot-content{
-    padding-left: 170px;
+    padding-top: 20px;
+    padding-left: 150px;
   }
   .copyright{
-    font-size: 25px;
-    padding-left: 170px;
+    font-size: 20px;
+    padding-left: 150px;
   }
 }
-@media (min-width: 1024px)and (max-width: 1280px) {
+@media (min-width: 1024px)and (max-width: 1279px) {
   .p1 {
     font-size: 20px;
     border-right: solid;
@@ -120,12 +125,13 @@ body {
     padding-left: 7px;
   }
   .foot-content{
-    padding-left: 120px;
+    padding-top: 20px;
+    padding-left: 90px;
     font-size: 25px;
   }
   .copyright{
     font-size: 20px;
-    padding-left: 110px;
+    padding-left: 90px;
   }
 }
 @media (min-width: 900px)and (max-width: 1023px) {
@@ -162,6 +168,7 @@ body {
   }
   .foot-content{
     padding-left: 10px;
+    padding-top: 20px;
     font-size: 30px;
   }
   .copyright{
@@ -174,39 +181,41 @@ body {
   .new-contact{
     font-size: 22px;
   }.p1 {
-    font-size: 30px;
+    font-size: 25px;
     border-right: solid;
     padding-right: 7px;
   }
   .p2 {
-    font-size: 30px;
+    font-size: 25px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p3 {
-    font-size: 30px;
+    font-size: 25px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p4 {
-    font-size: 30px;
+    font-size: 25px;
     border-right: solid;
     padding-right: 7px;
     padding-left: 7px;
   }
   .p5 {
-    font-size: 30px;
+    font-size: 25px;
     padding-right: 7px;
     padding-left: 7px;
   }
   .foot-content{
+    padding-top: 20px;
     padding-left: 10px;
     font-size: 30px;
   }
   .copyright{
-    font-size: 30px;
+    font-size: 25px;
+    padding-top: 20px;
     padding-left: 10px;
   }
 }
@@ -243,12 +252,13 @@ body {
     padding-left: 7px;
   }
   .foot-content{
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
     font-size: 30px;
   }
   .copyright{
     font-size: 10px;
-    padding-left: 10px;
+    padding-left: 18px;
   }
 }
 @media (min-width: 280px)and (max-width: 359px) {
