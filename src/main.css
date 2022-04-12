@@ -6,15 +6,17 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   max-height: 100vh;
   overflow-x: hidden;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap")
+    format("Darker Grotesque", "Lexend", "Libre Baskerville");
 }
 
 #main1 {
@@ -28,7 +30,7 @@ body, html {
   width: 80%;
   height: 50vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   border-radius: 1em;
   z-index: 1;
@@ -45,11 +47,11 @@ body, html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .swiper-slide div.swiper-slide-shadow {
@@ -96,13 +98,13 @@ body, html {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   border-radius: 0.7em;
   position: absolute;
   bottom: 40%;
@@ -113,7 +115,7 @@ body, html {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 @media (max-width: 400px) {
@@ -142,7 +144,7 @@ body, html {
   width: 60vw;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 0.5rem;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   border-radius: 0.5em;
   color: white;
   text-align: center;
@@ -160,15 +162,17 @@ body, html {
   padding: 0%;
 }
 
-div.swiper-button-next::after, div.swiper-button-prev::after {
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
   color: red;
   -webkit-text-stroke-width: 0.1em;
   -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
   font-size: 6vw;
 }
 
-#main1 div.swiper-button-next, #main1 div.swiper-button-prev {
+#main1 div.swiper-button-next,
+#main1 div.swiper-button-prev {
   top: 57%;
 }
 
@@ -184,7 +188,7 @@ div.swiper-button-next::after, div.swiper-button-prev::after {
 
 div.swiper-pagination {
   -webkit-transform: translateY(-575%);
-          transform: translateY(-575%);
+  transform: translateY(-575%);
 }
 
 #main2 {
@@ -198,7 +202,7 @@ div.swiper-pagination {
   width: 95%;
   height: 70vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   border-radius: 1em;
   border-color: #064635;
@@ -214,7 +218,7 @@ div.swiper-pagination {
   width: 25vw;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 0.5rem;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   border-radius: 0.5em;
   color: white;
   text-align: center;
@@ -230,13 +234,13 @@ div.swiper-pagination {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   border-radius: 1em;
   position: absolute;
   bottom: 20%;
@@ -246,7 +250,7 @@ div.swiper-pagination {
   font-size: 1.5vw;
   padding-right: 2%;
   margin: 0%;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .HB2 button.HC select {
@@ -267,11 +271,11 @@ div.swiper-pagination {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .swiper-slide div.swiper-slide-shadow {
@@ -317,11 +321,12 @@ div.swiper-pagination {
   padding: 0%;
 }
 
-div.swiper-button-next::after, div.swiper-button-prev::after {
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
   font-weight: 900;
   -webkit-text-stroke-width: 0.1em;
   -webkit-transform: translateY(300%);
-          transform: translateY(300%);
+  transform: translateY(300%);
 }
 
 #main2 div.swiper-button-next {
@@ -336,12 +341,13 @@ div.swiper-button-next::after, div.swiper-button-prev::after {
 
 div.swiper-pagination {
   -webkit-transform: translateY(-575%);
-          transform: translateY(-575%);
+  transform: translateY(-575%);
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap") format("Darker Grotesque", "Lexend", "Libre Baskerville");
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Lexend&family=Libre+Baskerville&display=swap")
+    format("Darker Grotesque", "Lexend", "Libre Baskerville");
 }
 
 #main3 {
@@ -355,7 +361,7 @@ div.swiper-pagination {
   width: 85%;
   height: 60vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   border-radius: 1em;
   z-index: 1;
@@ -376,11 +382,11 @@ div.swiper-pagination {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .swiper-slide div.swiper-slide-shadow {
@@ -400,7 +406,7 @@ div.swiper-pagination {
   font-size: 1.5rem;
   background-color: rgba(0, 0, 0, 0.543);
   padding: 1rem;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   border-radius: 0.5em;
   color: white;
 }
@@ -415,13 +421,13 @@ div.swiper-pagination {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   border-radius: 1em;
   position: absolute;
   bottom: 30%;
@@ -432,7 +438,7 @@ div.swiper-pagination {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .HB3 button.HC select {
@@ -461,14 +467,16 @@ div.swiper-pagination {
   padding: 0%;
 }
 
-div.swiper-button-next::after, div.swiper-button-prev::after {
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
   color: #064635;
   -webkit-text-stroke-width: 0.1em;
   -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-#main3 div.swiper-button-next, #main3 div.swiper-button-prev {
+#main3 div.swiper-button-next,
+#main3 div.swiper-button-prev {
   top: 45%;
 }
 
@@ -484,6 +492,6 @@ div.swiper-button-next::after, div.swiper-button-prev::after {
 
 div.swiper-pagination {
   -webkit-transform: translateY(-575%);
-          transform: translateY(-575%);
+  transform: translateY(-575%);
 }
 /*# sourceMappingURL=main.css.map */
