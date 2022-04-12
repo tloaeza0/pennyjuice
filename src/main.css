@@ -9,7 +9,7 @@
 body, html {
   width: 100%;
   max-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -113,7 +113,7 @@ body, html {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 @media (max-width: 400px) {
@@ -246,7 +246,7 @@ div.swiper-pagination {
   font-size: 1.5vw;
   padding-right: 2%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 .HB2 button.HC select {
@@ -432,7 +432,7 @@ div.swiper-pagination {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 .HB3 button.HC select {

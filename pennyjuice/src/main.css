@@ -197,6 +197,8 @@ body, html {
   width: 100%;
   height: 100vh;
   position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), color-stop(rgba(236, 171, 30, 0.3)), color-stop(rgba(255, 255, 0, 0.5)), to(white));
+  background-image: linear-gradient(to bottom, whitesmoke, rgba(236, 171, 30, 0.3), rgba(255, 255, 0, 0.5), white);
 }
 
 .swiper-slide {
@@ -272,7 +274,7 @@ body, html {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 @media (max-width: 400px) {
@@ -405,7 +407,7 @@ div.swiper-pagination {
   font-size: 1.5vw;
   padding-right: 2%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 .HB2 button.HC select {
@@ -591,7 +593,7 @@ div.swiper-pagination {
   padding: 0%;
   padding-right: 1%;
   margin: 0%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 .HB3 button.HC select {

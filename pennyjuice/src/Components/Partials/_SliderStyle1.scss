@@ -28,12 +28,14 @@ z-index: 1;
     width: 100%;
     height: 100vh;
     position: absolute; 
+     background-image: linear-gradient(to bottom, whitesmoke,rgba(236, 171, 30, 0.3) , rgba(255, 255, 0, 0.5),  white);
   }
 
    .swiper-slide {
      display: flex;
      justify-content: center;
      align-items: center;
+  
   }
 
   .swiper-slide div.swiper-slide-shadow{
@@ -100,7 +102,7 @@ z-index: 1;
      padding: 0%;
       padding-right: 1%;
     margin: 0%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Lexend', sans-serif;
 }
 
 
