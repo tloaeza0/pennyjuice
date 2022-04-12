@@ -9,7 +9,7 @@ import Order from "./Order";
 function App() {
   return (
     <div>
-      <NavBar />
+      <NavBar className="nb"/>
       <main>
         <Routes>
           <Route path="/contact" element={<ContactPage />} />
