@@ -19,11 +19,14 @@
   margin-left: 0em;
   font-family: "Libre Baskerville", serif;
 }
-/* .ordercontainer {
-  display: grid;
+div.ordercontainer {
+  /* display: grid;
   grid-template-rows: repeat(2, 1fr);
-  background-color: white;
-} */
+  background-color: white; */
+
+  display: flex;
+  flex-direction: column;
+}
 
 .orderform {
   margin-left: .5em;
