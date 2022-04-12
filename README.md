@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# PENNYJUICE
+Redesign website
+Original Pennyjuice website : https://www.pennyjuice.com/
+In this GitHub repository, you will find a redesign for the juice company Pennyjuice. Pennyjuice is originally a company based in Iowa that creates 100% blended fruit juice concentrates whose target audience is childcare centers. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our team decided to create a redesign on a website that wasnt so appealing to the eye and put our creative design into play, we wanted to focus this project on the UX to attract more customers. 
 
-## Available Scripts
+This project is created with React, CSS/SASS and Javascript. Inside this component-based website, we have four pages: the home page, about, products, order, and contact.
+Inside the home page, you will find four sections, including a hero with a CTA button that redirects customers to the order page. Next, an area will list the number of flavors with another CTA button redirecting you to the About page. As you scroll down, you will find important information regarding ingredients and FDA approval.
 
-In the project directory, you can run:
+Next, the about page mainly focuses on Pennyjuices values displayed with three sections with images that use a parallax effect.
+Then the products page, we decided to add a little pizazz and added a slider that showcases the 15 different flavors that Pennyjuice provides. The order page is inspired by the original order page on the Pennyjuice website, with a form that asks you to provide your information and the different flavors and amount each customer wishes to order. And last, the contact page asks the user for basic information such as first and last name, phone number, email, and any additional comments. Once the submit button is clicked, the data gets sent to the MySQL database created alongside this website. 
 
-### `npm start`
+Authors: Dina Jarkas, Emily Tamayo, Chioma Onukogu, Giselle Guevara, Teresa Loaeza.
+License: MIT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
