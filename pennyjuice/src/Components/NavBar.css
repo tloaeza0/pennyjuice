@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.padding{
+  padding-top: 15px;
+}
 .navbar {
   background-color: whitesmoke;
   height: 12.5rem;
@@ -50,6 +53,7 @@ body {
 .nav-menu.active {
   left: 0;
   transition: 350ms;
+  z-index: 20;
 }
 
 .nav-text {
@@ -79,6 +83,8 @@ body {
 
 .nav-menu-items {
   width: 100%;
+  /* background-color: #ff914d; */
+  
 }
 
 .navbar-toggle {
@@ -98,7 +104,7 @@ span {
 .link-color:hover {
   color: #ff914d;
 }
-@media (min-width: 1401px)and (max-width: 3000px) {
+@media (min-width: 1300px)and (max-width: 3000px) {
   .whole-nav-content{
     display: none;
   }
@@ -106,7 +112,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    gap: 600px;
+    gap: 500px;
   }
   .par3{
     display: flex;
@@ -128,7 +134,7 @@ span {
     height: 300px;
   }
 }
-@media (min-width: 1280px)and (max-width: 1400px) {
+@media (min-width: 1280px)and (max-width: 1290px) {
   .whole-nav-content{
     display: none;
   }
@@ -136,7 +142,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    gap: 400px;
+    gap: 300px;
   }
   .par3{
     display: flex;
@@ -262,6 +268,9 @@ span {
     height: 55vh;
     background-color: whitesmoke;
   }
+  .navbar-toggle {
+    height: 200px;
+  }
   .secondnav {
     display: none;
   }
@@ -291,18 +300,21 @@ span {
 }
 @media (min-width: 412px) and (max-width: 539px) {
   .whole-nav-content {
-    height: 50vh;
+    height: 38vh;
     background-color: whitesmoke;
   }
   .secondnav {
     display: none;
   }
+  .navbar-toggle {
+    height: 200px;
+  }
   .nav-content {
-    padding-left: 1rem;
+    padding-left: 1px;
   }
   .submit-btn {
     width: 200px;
-    padding-left: 40px;
+    padding-left: 20px;
   }
   .submit-btn button {
     width: 250px;
@@ -313,21 +325,27 @@ span {
   }
   .par2 {
     font-size: 20px;
-    padding-left: 50px;
+    /* padding-left: 2px; */
+    width: 338px;
   }
+  
   .orangelogo {
     height: 250px;
     width: 300px;
-    padding-top: 200px;
+    /* padding-top: 200px; */
+    margin-top: 16%;
   }
 }
 @media (min-width: 390px) and (max-width: 411px) {
   .whole-nav-content {
-    height: 55vh;
+    height: 45vh;
     background-color: whitesmoke;
   }
   .secondnav {
     display: none;
+  }
+  .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     padding-left: 0.04rem;
@@ -345,13 +363,16 @@ span {
   }
   .par2 {
     font-size: 20px;
-    padding-left: 50px;
+    padding-left: 59px;
+    width: 314px;
   }
   .orangelogo {
     height: 250px;
     width: 300px;
-    padding-top: 200px;
+    /* padding-top: 200px; */
+    margin-top: 50%;
   }
+
 }
 @media (min-width: 360px) and (max-width: 389px) {
   .whole-nav-content {
@@ -360,6 +381,9 @@ span {
   }
   .secondnav {
     display: none;
+  }
+  .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     padding-left: 1rem;
@@ -392,6 +416,9 @@ span {
   }
   .secondnav {
     display: none;
+  }
+   .navbar-toggle {
+    height: 200px;
   }
   .nav-content {
     display: flex;

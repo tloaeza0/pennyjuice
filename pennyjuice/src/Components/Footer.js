@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 function Footer() {
   return (
     <>
-      <section>
+      <section className="padding">
         <section className="new-contact">
           <div>
             <h1>Contact Us</h1>
